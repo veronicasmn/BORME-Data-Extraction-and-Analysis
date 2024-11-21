@@ -70,15 +70,17 @@ El proyecto extrae información relevante con alta precisión y permite:
 ## Instalación
 
 1. Clona este repositorio:
+ ```bash
    git clone https://github.com/tu-usuario/extraccion-borme.git
-
-2. Navega al directorio del proyecto:
+ ```
+3. Navega al directorio del proyecto:
+```bash
 cd extraccion-borme
-
+ ```
 3.Instala las dependencias:
-
+ ```bash
 pip install -r requirements.txt
-
+ ```
 ## Uso
 1. Configura el script:
 Define las palabras clave relacionadas con el sector en la lista palabras_clave dentro del código.
@@ -86,12 +88,13 @@ Define las palabras clave relacionadas con el sector en la lista palabras_clave 
 2. Ejecuta el script principal:
 
 Para extraer información del BORME de hoy:
+ ```bash
 python main.py
-
+ ```
 Para una fecha específica:
-
+ ```bash
 python main.py --date YYYYMMDD
-
+ ```
 3. Resultados:
 
 Los resultados procesados estarán disponibles en un archivo JSON o CSV en el directorio de salida.
@@ -103,18 +106,20 @@ Este script analiza un archivo PDF del BORME para extraer frases frecuentes rela
 **Uso:**
 - Asegúrate de tener el archivo PDF en la ruta especificada.
 - Ejecuta el script para identificar actividades principales:
-
+ ```bash
 python frasesfrecuentesBORME.py
-
+ ```
 - Resultado: un listado de actividades principales únicas extraídas del PDF.
-
+ ```bash
 test_borme.py
+ ```
 Automatiza la extracción de datos del BORME para el día anterior y añade un identificador único a cada apertura.
 
 **Uso:**
 - Ejecuta el script para obtener datos del día anterior:
+```bash
 python test_borme.py
-
+ ```
 - Resultado: una lista de aperturas con detalles organizados por provincia.
 
 ## Contribuciones
