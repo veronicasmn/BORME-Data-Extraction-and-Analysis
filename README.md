@@ -100,7 +100,9 @@ python main.py --date YYYYMMDD
 Los resultados procesados estarán disponibles en un archivo JSON o CSV en el directorio de salida.
 
 ## Scripts Adicionales
+ ```bash
 frasesfrecuentesBORME.py
+ ```
 Este script analiza un archivo PDF del BORME para extraer frases frecuentes relacionadas con las actividades principales de las empresas.
 
 **Uso:**
